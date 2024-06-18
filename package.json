@@ -1,0 +1,19 @@
+{
+  "name": "js_tasks",
+  "version": "1.0.0",
+  "description": "JS tasks projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lodricklawrence/JS_tasks.git"
+  },
+  "author": "Lodrick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lodricklawrence/JS_tasks/issues"
+  },
+  "homepage": "https://github.com/lodricklawrence/JS_tasks#readme"
+}
