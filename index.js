@@ -14,4 +14,9 @@ const palindromeString = (str) => {
   return str === str.split("").reverse().join("");
 };
 
-console.log(palindromeString("noo"));
+// 4. Write a JavaScript program to reverse a given string.
+const reverseString = (str) => {
+  return str.split("").reverse().join("");
+};
+
+console.log(reverseString("noo"));
