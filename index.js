@@ -19,4 +19,9 @@ const reverseString = (str) => {
   return str.split("").reverse().join("");
 };
 
-console.log(reverseString("noo"));
+//  5. Write a JavaScript function that takes an array of numbers and returns a new array with only the even numbers.
+const evenNumbers = (arr) => {
+  return arr.filter((number) => number % 2 === 0);
+};
+
+console.log(evenNumbers([1,2,3,4,5,6]));
