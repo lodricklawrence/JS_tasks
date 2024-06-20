@@ -24,4 +24,12 @@ const evenNumbers = (arr) => {
   return arr.filter((number) => number % 2 === 0);
 };
 
-console.log(evenNumbers([1,2,3,4,5,6]));
+// 6. Write a JavaScript program to calculate the factorial of a given number.
+function factorial(number) {
+  if (number === 0 || number === 1) {
+    return 1;
+  } else {
+    return number * factorial(number - 2);
+  }
+}
+console.log(factorial(0));
